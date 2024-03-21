@@ -1,3 +1,5 @@
+import TopMenu from "@/components/ui/top-menu/TopMenu";
+
 
 export default function ElectricalServiceLayout({
  children
@@ -5,7 +7,8 @@ export default function ElectricalServiceLayout({
  children: React.ReactNode;
 }) {
   return (
-    <main>
+    <main className="">
+      <TopMenu/>
       {children}
     </main>
   );
